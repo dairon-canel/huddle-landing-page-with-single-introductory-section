@@ -20,25 +20,39 @@
 
     <script src="./index.js" defer></script>
   </head>
-  <body class="grid min-h-screen">
-    <header><img src="./logo.svg" alt="logo" /></header>
-    <main>
+  <body class="relative grid min-h-screen auto-rows-auto bg-violet">
+    <header class="mx-9 mt-[1.95rem] mb-[1.2rem]">
+      <img class="h-auto w-[8rem]" src="./logo.svg" alt="logo" />
+    </header>
+    <main class="mx-9">
       <picture>
-        <img src="./illustration-mockups.svg" alt="illustration" />
+        <img
+          class="h-30 mb-[3.85rem] w-auto"
+          src="./illustration-mockups.svg"
+          alt="illustration"
+        />
       </picture>
-      <section>
-        <h1>Build The Community Your Fans Will Love</h1>
-        <p>
+      <section class="grid">
+        <h1
+          class="mb-[0.98rem] text-center text-2xl font-600 leading-[2.1rem] text-white"
+        >
+          Build The Community Your Fans Will Love
+        </h1>
+        <p class="text-center text-base text-white opacity-70">
           Huddle re-imagines the way we build communities. You have a voice, but
           so does your audience. Create connections with your users as you
           engage in genuine discussion.
         </p>
-        <button>Register</button>
+        <button
+          class="mx-[3.3rem] mt-[1.45rem] self-center rounded-full bg-white py-[0.8rem] text-xs font-600 text-violet text-opacity-75 shadow-lg drop-shadow-lg"
+        >
+          Register
+        </button>
       </section>
     </main>
-    <div class="order-6 mt-[7.6rem] flex gap-5 md:mt-[3rem]">
+    <div class="mb-[1.4rem] grid grid-flow-col gap-[0.5rem] place-self-center">
       <svg
-        class="border-gray fill-blue hover:bg-blue h-8 w-8 cursor-pointer rounded-full border-2 border-opacity-20 object-center p-[0.35rem] transition-all hover:fill-white"
+        class="hover:bg-whifill-white h-8 w-8 cursor-pointer rounded-full border-2 border-white border-opacity-60 fill-white object-center p-[0.35rem] transition-all hover:fill-white"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 320 512"
       >
@@ -47,7 +61,7 @@
         />
       </svg>
       <svg
-        class="border-gray fill-blue hover:bg-blue h-8 w-8 cursor-pointer rounded-full border-2 border-opacity-20 object-center p-[0.35rem] transition-all hover:fill-white"
+        class="hover:bg-whifill-white h-8 w-8 cursor-pointer rounded-full border-2 border-white border-opacity-60 fill-white object-center p-[0.35rem] transition-all hover:fill-white"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 512 512"
       >
@@ -56,7 +70,7 @@
         />
       </svg>
       <svg
-        class="border-gray fill-blue hover:bg-blue h-8 w-8 cursor-pointer rounded-full border-2 border-opacity-20 object-center p-[0.35rem] transition-all hover:fill-white"
+        class="hover:bg-whifill-white h-8 w-8 cursor-pointer rounded-full border-2 border-white border-opacity-60 fill-white object-center p-[0.35rem] transition-all hover:fill-white"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 448 512"
       >
@@ -65,7 +79,10 @@
         />
       </svg>
     </div>
-
+    <picture aria-hidden="true" class="absolute -z-10">
+      <source media="(min-width: 768px)" srcset="./bg-desktop.svg" />
+      <img src="./bg-mobile.svg" alt="background"
+    /></picture>
     <footer class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"

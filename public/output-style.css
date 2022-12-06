@@ -557,20 +557,102 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.order-6 {
-  order: 6;
+.absolute {
+  position: absolute;
 }
 
-.mt-\[7\.6rem\] {
-  margin-top: 7.6rem;
+.relative {
+  position: relative;
 }
 
-.flex {
-  display: flex;
+.-z-10 {
+  z-index: -10;
+}
+
+.mx-9 {
+  margin-left: 2.25rem;
+  margin-right: 2.25rem;
+}
+
+.mx-\[3\.3rem\] {
+  margin-left: 3.3rem;
+  margin-right: 3.3rem;
+}
+
+.mt-\[2rem\] {
+  margin-top: 2rem;
+}
+
+.mb-\[3\.65rem\] {
+  margin-bottom: 3.65rem;
+}
+
+.mb-\[3\.85rem\] {
+  margin-bottom: 3.85rem;
+}
+
+.mb-\[0\.98rem\] {
+  margin-bottom: 0.98rem;
+}
+
+.mt-\[1\.45rem\] {
+  margin-top: 1.45rem;
+}
+
+.mt-\[1\.95rem\] {
+  margin-top: 1.95rem;
+}
+
+.mb-\[3\.4rem\] {
+  margin-bottom: 3.4rem;
+}
+
+.mb-\[3\.2rem\] {
+  margin-bottom: 3.2rem;
+}
+
+.mb-\[3rem\] {
+  margin-bottom: 3rem;
+}
+
+.mb-\[2\.5rem\] {
+  margin-bottom: 2.5rem;
+}
+
+.mb-\[2rem\] {
+  margin-bottom: 2rem;
+}
+
+.mb-\[2\.2rem\] {
+  margin-bottom: 2.2rem;
+}
+
+.mb-\[2\.3rem\] {
+  margin-bottom: 2.3rem;
+}
+
+.mb-7 {
+  margin-bottom: 1.75rem;
+}
+
+.mb-\[1\.5rem\] {
+  margin-bottom: 1.5rem;
+}
+
+.mb-\[1\.4rem\] {
+  margin-bottom: 1.4rem;
+}
+
+.mb-\[1\.2rem\] {
+  margin-bottom: 1.2rem;
 }
 
 .grid {
   display: grid;
+}
+
+.h-auto {
+  height: auto;
 }
 
 .h-8 {
@@ -581,6 +663,14 @@ video {
   min-height: 100vh;
 }
 
+.w-\[8rem\] {
+  width: 8rem;
+}
+
+.w-auto {
+  width: auto;
+}
+
 .w-8 {
   width: 2rem;
 }
@@ -589,8 +679,36 @@ video {
   cursor: pointer;
 }
 
-.gap-5 {
-  gap: 1.25rem;
+.grid-flow-row {
+  grid-auto-flow: row;
+}
+
+.grid-flow-col {
+  grid-auto-flow: column;
+}
+
+.auto-rows-auto {
+  grid-auto-rows: auto;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.gap-\[1rem\] {
+  gap: 1rem;
+}
+
+.gap-\[0\.5rem\] {
+  gap: 0.5rem;
+}
+
+.place-self-center {
+  place-self: center;
+}
+
+.self-center {
+  align-self: center;
 }
 
 .rounded-full {
@@ -601,8 +719,36 @@ video {
   border-width: 2px;
 }
 
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: hsl(0 100% 100% / var(--tw-border-opacity));
+}
+
 .border-opacity-20 {
   --tw-border-opacity: 0.2;
+}
+
+.border-opacity-60 {
+  --tw-border-opacity: 0.6;
+}
+
+.bg-violet {
+  --tw-bg-opacity: 1;
+  background-color: hsl(257 40% 49% / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: hsl(0 100% 100% / var(--tw-bg-opacity));
+}
+
+.bg-softMagenta {
+  --tw-bg-opacity: 1;
+  background-color: hsl(300 69% 71% / var(--tw-bg-opacity));
+}
+
+.fill-white {
+  fill: hsl(0, 100%, 100%);
 }
 
 .object-center {
@@ -612,6 +758,75 @@ video {
 
 .p-\[0\.35rem\] {
   padding: 0.35rem;
+}
+
+.py-\[0\.8rem\] {
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.font-600 {
+  font-weight: 600;
+}
+
+.leading-\[2\.1rem\] {
+  line-height: 2.1rem;
+}
+
+.leading-\[2\.2rem\] {
+  line-height: 2.2rem;
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: hsl(0 100% 100% / var(--tw-text-opacity));
+}
+
+.text-violet {
+  --tw-text-opacity: 1;
+  color: hsl(257 40% 49% / var(--tw-text-opacity));
+}
+
+.text-opacity-75 {
+  --tw-text-opacity: 0.75;
+}
+
+.opacity-70 {
+  opacity: 0.7;
+}
+
+.opacity-75 {
+  opacity: 0.75;
+}
+
+.shadow-lg {
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.drop-shadow-lg {
+  --tw-drop-shadow: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .transition-all {
@@ -661,10 +876,4 @@ h6 {
 
 .hover\:fill-white:hover {
   fill: hsl(0, 100%, 100%);
-}
-
-@media (min-width: 768px) {
-  .md\:mt-\[3rem\] {
-    margin-top: 3rem;
-  }
 }
