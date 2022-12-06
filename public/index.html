@@ -22,7 +22,7 @@
   </head>
   <body class="relative grid min-h-screen auto-rows-auto bg-violet">
     <header
-      class="mx-9 mt-[1.95rem] mb-[1.2rem] md:mx-[4.45rem] md:mb-[2.9rem] md:mt-[3.4rem]"
+      class="mx-9 mt-[1.95rem] mb-[0.1rem] md:mx-[4.45rem] md:mb-[2.9rem] md:mt-[3.4rem]"
     >
       <img
         class="h-auto w-[8rem] object-left-top md:w-[13.05rem]"
@@ -54,15 +54,15 @@
           engage in genuine discussion.
         </p>
         <button
-          class="mx-[3.3rem] mt-[1.45rem] rounded-full bg-white py-[0.8rem] text-xs font-600 text-violet text-opacity-75 shadow-lg drop-shadow-lg md:mx-0 md:mt-[1.55rem] md:w-[12.6rem] md:py-[1.25rem] md:text-[1.1rem]"
+          class="mx-[3.3rem] mt-[1.45rem] rounded-full bg-white py-[0.8rem] text-xs font-600 text-violet text-opacity-75 shadow-lg drop-shadow-lg transition-all hover:bg-softMagenta hover:text-white md:mx-0 md:mt-[1.55rem] md:w-[12.6rem] md:py-[1.25rem] md:text-[1.1rem]"
         >
           Register
         </button>
         <div
-          class="mb-[1.4rem] grid grid-flow-col gap-[0.5rem] place-self-end md:mb-0 md:mt-[11.3rem]"
+          class="mt-24 grid grid-flow-col gap-[0.5rem] place-self-center md:mt-[11.3rem] md:place-self-end"
         >
           <svg
-            class="hover:bg-whifill-white h-8 w-8 cursor-pointer rounded-full border-2 border-white border-opacity-60 fill-white object-center p-[0.35rem] transition-all hover:fill-white md:h-10 md:w-10 md:p-[0.55rem]"
+            class="h-7 w-7 cursor-pointer rounded-full border-2 border-white border-opacity-60 fill-white object-center p-[0.35rem] transition-all hover:border-softMagenta hover:fill-softMagenta md:h-10 md:w-10 md:p-[0.55rem]"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 320 512"
           >
@@ -71,7 +71,7 @@
             />
           </svg>
           <svg
-            class="hover:bg-whifill-white h-8 w-8 cursor-pointer rounded-full border-2 border-white border-opacity-60 fill-white object-center p-[0.35rem] transition-all hover:fill-white md:h-10 md:w-10 md:p-[0.55rem]"
+            class="h-7 w-7 cursor-pointer rounded-full border-2 border-white border-opacity-60 fill-white object-center p-[0.35rem] transition-all hover:border-softMagenta hover:fill-softMagenta md:h-10 md:w-10 md:p-[0.55rem]"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 512 512"
           >
@@ -80,7 +80,7 @@
             />
           </svg>
           <svg
-            class="hover:bg-whifill-white h-8 w-8 cursor-pointer rounded-full border-2 border-white border-opacity-60 fill-white object-center p-[0.35rem] transition-all hover:fill-white md:h-10 md:w-10 md:p-[0.55rem]"
+            class="h-7 w-7 cursor-pointer rounded-full border-2 border-white border-opacity-60 fill-white object-center p-[0.35rem] transition-all hover:border-softMagenta hover:fill-softMagenta md:h-10 md:w-10 md:p-[0.55rem]"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 448 512"
           >
@@ -92,9 +92,9 @@
       </section>
     </main>
 
-    <picture aria-hidden="true" class="absolute -z-10">
+    <picture aria-hidden="true" class="absolute -z-10 h-auto w-full">
       <source media="(min-width: 768px)" srcset="./bg-desktop.svg" />
-      <img src="./bg-mobile.svg" alt="background"
+      <img class="h-auto w-full" src="./bg-mobile.svg" alt="background"
     /></picture>
     <footer class="attribution">
       Challenge by
